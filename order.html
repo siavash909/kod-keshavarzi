@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>ثبت سفارش کود کشاورزی</title>
+<link rel="stylesheet" href="style.css">
+<script>
+function sendOrder(e){
+ e.preventDefault();
+ alert("سفارش شما با موفقیت ثبت شد 🌱");
+}
+</script>
+</head>
+<body>
+<header>
+<h1>ثبت سفارش کود کشاورزی 🌱</h1>
+<p>فرم ثبت سفارش مشتری</p>
+</header>
+
+<nav>
+<a href="index.html">صفحه اصلی</a>
+<a href="fertilizer.html">انواع کود</a>
+<a href="order.html">ثبت سفارش</a>
+<a href="customer.html">ثبت مشتری</a>
+<a href="contact.html">تماس با ما</a>
+</nav>
+
+<div class="container">
+<h2>فرم ثبت سفارش</h2>
+<form onsubmit="sendOrder(event)">
+<label>نام و نام خانوادگی:</label><br>
+<input type="text" required><br><br>
+
+<label>شماره تماس:</label><br>
+<input type="tel" required><br><br>
+
+<label>نوع کود:</label><br>
+<select>
+<option>کود نیتروژنه</option>
+<option>کود فسفاته</option>
+<option>کود پتاسه</option>
+<option>کود آلی</option>
+</select><br><br>
+
+<label>مقدار مورد نیاز:</label><br>
+<input type="number" required><br><br>
+
+<label>آدرس:</label><br>
+<textarea rows="5"></textarea><br><br>
+
+<button type="submit">ثبت سفارش</button>
+</form>
+</div>
+
+<h2>تماس با ما</h2>
+<p>
+برای دریافت اطلاعات بیشتر درباره کودهای کشاورزی با ما در ارتباط باشید.
+<br><br>
+📞 تلفن: 09017123135
+<br><br>
+📧 ایمیل: Kingsiavash13811381@gmail.com
+</p>
+
+<footer>فروشگاه کود کشاورزی 🌱</footer>
+</body>
+</html>

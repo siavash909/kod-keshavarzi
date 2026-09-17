@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    direction: rtl;
+    background: #f3f8f1;
+    color: #263326;
+    line-height: 1.8;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav {
+    background: #145214;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #145214;
+}
+
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #0002;
+}
+
+
+/* Cards */
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px #0002;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+/* Buttons */
+
+button,
+.btn {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover,
+.btn:hover {
+    background: #1b5e20;
+}
+
+
+/* Forms */
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: Tahoma;
+}
+
+
+/* Footer */
+
+footer {
+    background: #145214;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
